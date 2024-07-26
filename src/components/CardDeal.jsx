@@ -2,8 +2,7 @@ import styles, {layout} from "../style.js";
 import Button from "./Button.jsx";
 import {card} from "../assets/index.js";
 
-const CardDeal = () => {
-    return (
+const CardDeal = () => (
         <section className={layout.section}>
             <div className={layout.sectionInfo}>
                 <h2 className={styles.heading2}>
@@ -19,6 +18,5 @@ const CardDeal = () => {
                 <img src={card} alt="card" className="w-[100%] h-[100%]]"/>
             </div>
         </section>
-    )
-}
+)
 export default CardDeal;

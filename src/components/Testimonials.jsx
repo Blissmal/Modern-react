@@ -3,8 +3,7 @@ import styles from "../style.js";
 import {feedback} from "../constants/index.js";
 import FeedbackCard from "./FeedbackCard.jsx";
 
-const Testimonials = () => {
-    return (
+const Testimonials = () => (
         <section id="clients" className={`${style.paddingY} ${styles.flexCenter} flex-col relative`}>
             <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient"/>
 
@@ -23,6 +22,5 @@ const Testimonials = () => {
                 }
             </div>
         </section>
-    )
-}
+)
 export default Testimonials

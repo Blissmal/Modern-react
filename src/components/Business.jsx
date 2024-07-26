@@ -18,8 +18,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
     </div>
 )
 
-const Business = () => {
-    return (
+const Business = () => (
         <section id="features" className={layout.section}>
             <div className={layout.sectionInfo}>
                 <h2 className={styles.heading2}>You do the business, <br className="sm:block hidden"/> we&apos;ll handle the money.</h2>
@@ -35,6 +34,5 @@ const Business = () => {
                 }
             </div>
         </section>
-    )
-}
+)
 export default Business

@@ -1,8 +1,7 @@
 import styles from "../style.js";
 import {clients} from "../constants/index.js";
 
-const Clients = () => {
-    return (
+const Clients = () => (
         <section className={`${styles.flexCenter} my-4`}>
             <div className={`${styles.flexCenter} flex-wrap w-full`}>
                 {
@@ -14,6 +13,5 @@ const Clients = () => {
                 }
             </div>
         </section>
-    )
-}
+)
 export default Clients
