@@ -1,5 +1,6 @@
 import styles, {layout} from "../style.js";
 import Button from "./Button.jsx";
+import {card} from "../assets/index.js";
 
 const CardDeal = () => {
     return (
@@ -14,6 +15,9 @@ const CardDeal = () => {
                 <Button styles="mt-10"/>
             </div>
 
+            <div className={layout.sectionImg}>
+                <img src={card} alt="card" className="w-[100%] h-[100%]]"/>
+            </div>
         </section>
     )
 }
