@@ -1,5 +1,5 @@
 import styles, {layout} from "../style.js";
-import {bill} from "../assets/index.js";
+import {apple, bill, google} from "../assets/index.js";
 
 const Billing = () => {
     return (
@@ -15,6 +15,11 @@ const Billing = () => {
                 <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab, accusamus blanditiis dolores exercitationem nulla praesentium provident qui ratione voluptatem.
                 </p>
+
+                <div className="flex fle-row flex-wrap sm:mt-10 mt-6">
+                    <img src={apple} alt="" className="w-[128px] h-[42px] object-contain mr-5 cursor-pointer"/>
+                    <img src={google} alt="" className="w-[128px] h-[42px] object-contain cursor-pointer"/>
+                </div>
             </div>
         </section>
     )
